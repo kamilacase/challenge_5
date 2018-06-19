@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -13,64 +12,115 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1>Progeny 2014</h1>
-            <ul>
-                <li>
-                    <a href="#">HOME</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#">MUSIC</a>
-                </li>
-                <li>
-                    <a href="#">GIGS</a>
-                </li>
-                <li>
-                    <a href="#">PHOTOS</a>
-                </li>
-                <li>
-                    <a href="#">VIDEOS</a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-twitter-square"></i>
-                    </a>
-                </li>
-            </ul>
-            <form action="action_page.php">
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </nav>
-    </header>
 
     <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <h1><a class="navbar-brand" href="#">PROGENCY 2014</a></h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MUSIC
+        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Demis ROUSSOS</a>
+                                <a class="dropdown-item" href="#">Mireille MATHIEU</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">JUL (OVNI)</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PHOTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VIDEOS</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+            <!-- <nav>
+                <h1>Progeny 2014</h1>
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">MUSIC</a>
+                    </li>
+                    <li>
+                        <a href="#">GIGS</a>
+                    </li>
+                    <li>
+                        <a href="#">PHOTOS</a>
+                    </li>
+                    <li>
+                        <a href="#">VIDEOS</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                </ul>
+                <form action="action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </nav> -->
+        </header>
         <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-xl-4 bg-danger">
                 <article>
                     <img src="img/1.jpg" alt="rien">
                     <h3>BLOG</h3>
                     <p>QUATRES MOTS CHIANT</p>
                 </article>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-xl-4 bg-success">
                 <article>
                     <img src="img/2.jpg" alt="encore rien">
                     <h3>RECORDS</h3>
                     <p>CINQ MOTS CASSE-PIED</p>
                 </article>
             </div>
-            <div class="col">
-                <article>*
+            <div class="col-md-6 col-xl-4 bg-warning">
+                <article>
                     <img src="img/3.jpg" alt="puis rien encore">
                     <h3>VIDEOS</h3>
                     <p>SIX MOTS DE LA MORT</p>
