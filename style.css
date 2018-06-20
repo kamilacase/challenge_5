@@ -1,15 +1,22 @@
-
-#art{
+#art {
     background-color: black;
 }
-#art h3, #art p{
+
+#art h3,
+#art p {
     padding-top: 1rem;
     padding-left: 1rem;
 }
-#art h3{
+
+#art h3 {
     font-size: .75rem;
     font-weight: bold;
 }
-#art p{
+
+#art p {
     font-size: 1rem;
+}
+
+aside {
+    background-color: black;
 }
