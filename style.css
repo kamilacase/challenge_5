@@ -1,3 +1,14 @@
-img{
-    width: 100%;
+
+#art{
+    background-color: black;
 }
+#art h3, #art p{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+#art h3{
+    font-size: .75rem;
+    font-weight: bold;
+}
+#art p{
+    font-size: 1rem;
